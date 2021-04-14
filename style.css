@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index:10 ;
+
+}
+.navbar
+{
+    background-image: linear-gradient(to left,#6c5db1,#171982);
+    padding: 0!important;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: rgb(10, 10, 10) !important;
+    font-weight: 600;
+}
+.fa-bars
+{
+    color: rgb(0, 0, 0);
+    font-size: 30px !important;
+
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*------------------banner-----*/
+#banner
+{
+    background-image: linear-gradient(to left,#6c5db1,#171982);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn
+{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none ;
+}
+
+
+#bahasa{
+    padding: 80px 0;
+
+}
+.bahasa-img
+{
+    width: 200px;
+    margin-top: 20px;
+}
+.bahasa{
+    padding: 10px;
+    
+}
+.bahasa h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+
+
+
+#about{
+    background: #898a8d;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.col-md-6 p{
+    font-size: 15px;
+    
+}
